@@ -14,7 +14,7 @@ public class Controller {
 	
 	@GetMapping ("/objetivos_de_aprendizagem")
 	public String objetivos_de_aprendizagem() {
-		return "Esta semana quero me dedicar em aprender a utilizar as ferramentas propostas nas aulas, como o Spring, e a ler e entender novas documentações. ";
+		return "Esta semana vou me dedicar a aprender a utilizar as ferramentas propostas nas aulas, como o Spring, e a ler e entender novas documentações. ";
 	}
 	
 }
