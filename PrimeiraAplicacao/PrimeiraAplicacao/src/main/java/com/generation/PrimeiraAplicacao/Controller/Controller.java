@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController 
 public class Controller {
 	
-	 //Criação de end-point 
+	 //Criação de end-point >>>>
 	@GetMapping ("/mentalidades") // "mentalidades" pagina gerada, ultima parte do link
 	public String mentalidades() {
 		return "Mentalidade de Persistencia pois tive que tentar diversas vezes realizar as atividades envolvendo spring";
